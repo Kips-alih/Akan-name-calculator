@@ -1,0 +1,13 @@
+body{
+  background-image: url(/images/ghana.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#app{
+  border: 4px solid rgb(128, 122, 121);
+  height: 20vw;
+  width: 50%;
+  border-radius:10px;
+  background-color: turquoise;
+  
+}
