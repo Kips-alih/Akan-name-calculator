@@ -6,4 +6,8 @@ let akanMaleNames=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
 //user information
 let birthDay=document.getElementById("inputBirthDay").value;
 let gender=document.getElementsByClassName("gender");
+
+//manipulate user info
+let date=new Date(birthDay);
+let yourDay=date.getDay();
 };
