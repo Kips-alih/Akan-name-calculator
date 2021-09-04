@@ -8,6 +8,6 @@ let birthDay=document.getElementById("inputBirthDay").value;
 let gender=document.getElementsById("mySelect").value;
 
 //manipulate user info
-let date=new Date(birthDay);
-let yourDay=date.getDay();
+let text=new Date(birthDay);
+let date=text.getDay();
 };
