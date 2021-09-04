@@ -2,6 +2,10 @@ body{
   background-image: url(/images/background.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 10px;
+}
+div.container{
+  margin-left: 25%;
 }
 #app{
   border: 4px solid rgb(128, 122, 121);
