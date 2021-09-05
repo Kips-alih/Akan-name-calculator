@@ -15,4 +15,11 @@ if ( birthDay !=""&&femaleGender) {
   document.getElementById("akanName").innerHTML ="Your akan name is " +akanFemaleNames[yourDay]+" .";
   alert("Your akan name is " +akanFemaleNames[yourDay]+" .");
 }
+else if(birthDay !=""&&!femaleGender){
+    alert("Your akan name is " +akanMaleNames[yourDay]+" .");
+
+}
+else{
+  alert("select all the fields")
+}
 };
