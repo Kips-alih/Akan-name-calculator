@@ -10,7 +10,7 @@ This is a web application that will calculate your Akan name based on your gende
 * Select your date of birth and gender.
 * Submit the details to get your Akan name through an alert.
 ## Live link to gh-pages.
-
+https://kips-alih.github.io/Akan-name-calculator/
 ## Technologies used.
 The languages used in development are:
 * Html.
