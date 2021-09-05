@@ -1,9 +1,25 @@
 # Akan-name-calculator
 #### This is a web application that will calculate your Akan name based on your birthday and gender.
-##### By Alphonce Kipngeno , 03/09/2021
-## Description
+#### By **Alphonce Kipngeno** , 03/09/2021
+## Description.
 This is a web application that will calculate your Akan name based on your gender and day of the week that you were born. Akan names are the first names given to Ghanaian children. The naming is based on the day of the week that the child is born.These names also vary depending on the gender of the child.
-## Design
+## Design.
 ![Akan Name (1)](https://user-images.githubusercontent.com/87495436/132045365-f698de3c-2485-48cb-8f04-25c50c078660.png)
+## Setup/Installation Instructions.
+* Click the gh-pages link.
+* Select your date of birth and gender.
+* Submit the details to get your Akan name through an alert.
+## Live link to gh-pages.
 
+## Technologies used.
+The languages used in development are:
+* Html.
+* Css.
+* Javascript.
+## Support and contact details.
+Use the following email addresses to contact me if you have a comment or want to contribute.
+* alphonce.kipngeno@student.moringaschool.com.
+* alphoncekipngeno@gmail.com.
+### License.
+* LICENSED UNDER  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE).
 
