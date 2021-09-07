@@ -17,15 +17,15 @@
   if ( birthDay !="" && gender=="female") {
 
     document.getElementById("akanName").innerHTML =" You were born on "+ weekDays[yourDay]+ " and your akan name is " +akanFemaleNames[yourDay]+" .";
-    alert(" You were born on "+ weekDays[yourDay]+ " and your akan name is " +akanFemaleNames[yourDay]+" .");
+    alert(" Hello,you were born on "+ weekDays[yourDay]+ " and your akan name is " +akanFemaleNames[yourDay]+" .");
     }
     else if(birthDay !="" && gender=="male"){
 
       document.getElementById("akanName").innerHTML =" You were born on "+ weekDays[yourDay]+ " and your akan name is " +akanMaleNames[yourDay]+" .";
-      alert(" You were born on "+ weekDays[yourDay]+ " and your akan name is " +akanMaleNames[yourDay]+" .");
+      alert(" Hello, you were born on "+ weekDays[yourDay]+ " and your akan name is " +akanMaleNames[yourDay]+" .");
 
     }
     else{
-    alert("select all the fields")
+    alert("select all the fields!")
     }
   };
