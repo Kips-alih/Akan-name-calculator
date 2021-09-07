@@ -6,20 +6,20 @@
 
 
   //user information
-  let birthDay=document.getElementById("inputBirthDay").value;
-  let femaleGender=document.getElementById("female").value;
-  let maleGender=document.getElementById("male").value;
+  let birthDay= document.getElementById("inputBirthDay").value;
+  let gender= document.querySelector("form select[id=mySelect]").value;
+
 
   //manipulate user info
   let date=new Date(birthDay);
   let yourDay=date.getDay();
   //control flow
-  if ( birthDay !=""&&femaleGender) {
+  if ( birthDay !="" && gender=="female") {
 
     document.getElementById("akanName").innerHTML =" You were born on "+ weekDays[yourDay]+ " and your akan name is " +akanFemaleNames[yourDay]+" .";
     alert(" You were born on "+ weekDays[yourDay]+ " and your akan name is " +akanFemaleNames[yourDay]+" .");
     }
-    else if(birthDay !=""&&maleGender){
+    else if(birthDay !="" && gender=="male"){
 
       document.getElementById("akanName").innerHTML =" You were born on "+ weekDays[yourDay]+ " and your akan name is " +akanMaleNames[yourDay]+" .";
       alert(" You were born on "+ weekDays[yourDay]+ " and your akan name is " +akanMaleNames[yourDay]+" .");
