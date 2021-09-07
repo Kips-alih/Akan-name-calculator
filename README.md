@@ -7,6 +7,7 @@ This is a web application that will calculate your Akan name based on your gende
 ![The-app](https://user-images.githubusercontent.com/87495436/132282188-8ee215a5-bd5f-4a7f-b6a1-35159592238f.png)
 ## Setup/Installation Instructions.
 * Click the gh-pages link.
+* Enter your name.
 * Select your date of birth and gender.
 * Submit the details to get your Akan name through an alert.
 ## Live link to gh-pages.
